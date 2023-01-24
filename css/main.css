@@ -1,11 +1,8 @@
 
-/*************************************
-This css file includes several different formatting examples
-GENERAL
-**************************************/
+
 a {
  text-decoration: none;
-  color: #0d50cd;
+  color: #e39030;
  }
 
 img {
@@ -61,7 +58,7 @@ header {
  line-height: 0.5;
  text-align: center;
 
-   color: #101884;
+   color: #f1850a;
 
  }
 
@@ -69,7 +66,7 @@ header {
  font-size: 1.00em;
  font-weight: normal;
  margin: -5px 0 0;
-   color: #df330a;
+   color: #ffffff;
  }
 
 
@@ -114,7 +111,7 @@ FOOTER
 /*************************************
 PAGE:
 **************************************/
-.mydiv {background: lightblue; width:250px; height: 250px;}
+.mydiv {background: rgb(0, 0, 0); width:250px; height: 250px;}
 
 .myimage {
     float:left;
@@ -124,7 +121,7 @@ PAGE:
     border-radius: 20px;
 }
 
-.dog-photo {
+.albums {
     display: block;
     max-width: 250px;
     margin: 0 auto 30px;
@@ -136,7 +133,7 @@ PAGE:
  /*************************************
 PAGE: ABOUT
 **************************************/
-.profile-photo {
+.band {
     display: block;
     max-width: 400px;
     margin: 0 auto 30px;
@@ -158,11 +155,11 @@ COLORS
 
 /* nav background on mobile devices*/
 nav {
-   background: #599a6b;
+   background: #000000;
 }
 
 nav a, nav a:visited {
-	color: #fff;
+	color: rgba(59, 156, 191, 0.983);
 }
 
 /* selected nav link color*/
@@ -171,6 +168,6 @@ nav a.selected, nav a:hover {
 }
 /* site body*/
 body {
-    background-color: #fff;
-    color: #000;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
