@@ -2,7 +2,7 @@
 
 a {
  text-decoration: none;
-  color: #e39030;
+  color: #de4c41f0;
  }
 
 img {
@@ -51,14 +51,14 @@ header {
  }
 
  h1  {
- font-family: 'Changa One', sans-serif;
+ font-family: 'Helvetica', sans-serif;
  margin: 10px 0;
  font-size: 1.75em;
  font-weight: normal;
  line-height: 0.5;
  text-align: center;
 
-   color: #f1850a;
+   color: #6a91daf3;
 
  }
 
@@ -145,14 +145,6 @@ COLORS
 **************************************/
 
 
- /* green header*/
-  header {
-   background: #6ab47b;
-   border-color: #599a68;
- }
-
-
-
 /* nav background on mobile devices*/
 nav {
    background: #000000;
@@ -164,7 +156,7 @@ nav a, nav a:visited {
 
 /* selected nav link color*/
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #e93a3a;
 }
 /* site body*/
 body {
