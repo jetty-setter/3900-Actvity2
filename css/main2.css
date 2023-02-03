@@ -2,31 +2,33 @@
     box-sizing: border-box;
   }
   
-  /* Header/Blog Title */
+  /* Header*/
   .header {
     padding: 10px;
     text-align: center;
-    background:#f8240c;
+    background:#2a1e5c;
     border-radius: 5px 5px 0 0;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
   }
   
   .header h1 {
+    font-family: 'Bungee Shade', cursive;
     font-size: 50px;
     color:white;
   }
 
-  /* Style the top navigation bar */
+  /* Top navigation bar */
   .topnav {
     overflow: hidden;
-    background-color:black;
+    background-color:#5f22d9;
+    font-family: 'Bungee', cursive;
     border-radius:0 0 5px 5px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
   }
   
-  /* Style the topnav links */
+  /* Topnav links */
   .topnav a {
     float: left;
     display: block;
@@ -36,37 +38,42 @@
     text-decoration: none;
   }
   
-  /* Change color on hover */
+  /* Topnav links hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color:#F05454;
     color: black;
   }
   
+  h2 {
+  font-family: 'Bungee', cursive;
+  color: white;
+  }
+
   body {
     font-family: Arial;
     padding: 10px;
-    background: #FFFF00;
+    background: black;
   }
 
-  /* Create two unequal columns that floats next to each other */
+  /* Create two unequal columns that float next to each other */
   /* Left column */
   .leftcolumn {   
     float: left;
     width: 75%;
-    background-color: #FFFF00;
+    background-color: black;
   }
   
   /* Right column */
   .rightcolumn {
     float: left;
     width: 25%;
-    background-color:#FFFF00;
+    background-color:black;
     padding-left: 20px;
   }
   
-  /* Add a card effect for articles */
+  /* Card effect for body and images */
   .card {
-    background-color:#f8240c;
+    background-color:#2a1e5c;
     color: white;
     padding: 20px;
     margin-top: 20px;
@@ -81,18 +88,17 @@
     transition: 0.3s;
   }
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
   /* Footer */
   .footer {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    background: #f8240c;
+    background: #30475E;
     color: white;
     margin-top: 20px;
     border-radius: 5px;
@@ -100,7 +106,7 @@
     transition: 0.3s;
   }
   
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  /* Responsive layout - when the screen is less than 800px*/
   @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {   
       width: 100%;
@@ -108,7 +114,7 @@
     }
   }
   
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  /* Responsive layout - when the screen is less than 400px */
   @media screen and (max-width: 400px) {
     .topnav a {
       float: none;
