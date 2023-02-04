@@ -75,6 +75,12 @@
     padding-left: 20px;
   }
   
+  .centercolumn {   
+    float: left;
+    width: 100%;
+    background-color: black;
+  }
+
   /* Card effect for body and images */
   .card {
     background-color:#2a1e5c;
