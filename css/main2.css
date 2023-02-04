@@ -53,6 +53,10 @@
     font-family: Arial;
     padding: 10px;
     background: black;
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
   }
 
   /* Create two unequal columns that float next to each other */
@@ -88,24 +92,30 @@
     transition: 0.3s;
   }
   
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
+  .wrapper{
+     flex:1;
+   }
+   
+
+
   /* Footer */
   .footer {
     padding: 10px;
     text-align: center;
-    background: #30475E;
+    background: #2a1e5c;
     color: white;
     margin-top: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    right:0; 
+    bottom:0; 
+    width:100%;
   }
   
+  
+
   /* Responsive layout - when the screen is less than 800px*/
   @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {   
