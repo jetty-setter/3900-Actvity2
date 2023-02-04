@@ -51,33 +51,34 @@
 
   body {
     font-family: Arial;
-    padding: 10px;
+    padding: 20px;
     background: black;
-    text-align:left;
     display:flex;
     flex-direction:column;
     min-height:100vh;
   }
 
-  /* Create two unequal columns that float next to each other */
-  /* Left column */
+  p.condense {
+    padding: 10px 90px;
+  }
+
+  /* Left column home */
   .leftcolumn {   
     float: left;
     width: 75%;
     background-color: black;
   }
   
-  /* Right column */
+  /* Right column home */
   .rightcolumn {
     float: left;
     width: 25%;
     background-color:black;
     padding-left: 20px;
   }
-  
+  /* Right column */
   .centercolumn {   
     background-color: black;
-    float: center;
   }
 
   /* Card effect for body and images */
@@ -95,7 +96,6 @@
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    text-align:right ;
   }
 
   .centerimg {
