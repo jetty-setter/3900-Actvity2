@@ -76,9 +76,8 @@
   }
   
   .centercolumn {   
-    float: left;
-    width: 100%;
     background-color: black;
+    float: center;
   }
 
   /* Card effect for body and images */
@@ -96,6 +95,14 @@
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    text-align:right ;
+  }
+
+  .centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
   
 
@@ -107,7 +114,6 @@
 
   /* Footer */
   .footer {
-    padding: 10px;
     text-align: center;
     background: #2a1e5c;
     color: white;
@@ -121,7 +127,6 @@
   }
   
   
-
   /* Responsive layout - when the screen is less than 800px*/
   @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {   
